@@ -1,0 +1,49 @@
+.restaurant-detail {
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.restaurant-desc-detail{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+
+.restaurant-description{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.restaurant-img{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+}
+
+.restaurant-img img{
+    width: 80%;
+}
+
+.review-container{
+    width: 50%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.review{
+    padding: 1rem;
+    width: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    box-shadow: var(--shadow);
+    border-radius: var(--corner-radius);
+}
